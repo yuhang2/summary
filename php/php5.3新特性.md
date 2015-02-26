@@ -1,10 +1,9 @@
 ## php 5.3新特性
-### 1 php 5.3新特性
-#### 1.1 支持命名空间(Namespace)
+#### 1 支持命名空间(Namespace)
 
 > 使用命名空间，避免不同包中的类名和变量名重复
 
-#### 1.2 支持延迟静态绑定(Late Static Binding)
+#### 2 支持延迟静态绑定(Late Static Binding)
 
 > php 5.3.0新增了static关键字来引用当前类，即实现了延迟静态绑定
 
@@ -70,8 +69,8 @@ B::test()
 B
 ```
 
-#### 1.3 支持goto语句
-#### 1.4 支持闭包、Lambda/Anonymous函数
+#### 3 支持goto语句
+#### 4 支持闭包、Lambda/Anonymous函数
 
 > 闭包、Lambda函数的概念来自函数式编程领域  
 在php中，可以通过create_function()在代码运行时创建函数。但是，创建的函数只在运行时才被编译，而不与其它代码同时被编译为执行码，无法使用APC这样的执行码缓存提高执行效率。 
@@ -100,12 +99,12 @@ $callback = function ($quantity, $product) use ($tax, &$total) {
 array_walk($products, $callback);
 ```
 
-#### 1.5 新增两个魔术方法__callStatic()和__invoke()
+#### 5 新增两个魔术方法__callStatic()和__invoke()
 __call() 调用对象的某个不存在的方法时，方法被自动调用
 __callStatic() 用于静态类方法
 __invoke() 以函数形式调用对象时，方法被自动调用
-#### 1.6 新增Nowdoc语法
-#### 1.7 在类外也可以使用const来定义常量
+#### 6 新增Nowdoc语法
+#### 7 在类外也可以使用const来定义常量
 
 ```php
 <?php
@@ -114,13 +113,13 @@ define("CONSTANT", "Hello World");
 const CONSTANT = "Hello World";
 ```
 
-#### 1.8 三元运算符增加了快捷书写方式
+#### 8 三元运算符增加了快捷书写方式
 原格式: expr1 ? expr2 : expr3;
 如果expr1结果为真，返回expr2的结果。
 新格式: expr1 ?: expr3;
 如果expr1结果为真，返回expr1的结果。
-#### 1.9 HTTP状态码在200-399范围内，均被认为访问成功
-#### 1.10 支持动态调用静态方法
+#### 9 HTTP状态码在200-399范围内，均被认为访问成功
+#### 10 支持动态调用静态方法
 
 ```php
 <?php
@@ -136,8 +135,8 @@ $action = 'testgo';
 $class::$action(); //输出 "gogo!"
 ```
 
-#### 1.11 支持嵌套处理异常
-#### 1.12 新的垃圾收集器，并默认启用
+#### 11 支持嵌套处理异常
+#### 12 新的垃圾收集器，并默认启用
 
 ### 其它值得注意的
 
