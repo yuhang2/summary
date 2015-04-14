@@ -9,6 +9,8 @@
 	- [标准库中文版](http://studygolang.com/pkgdoc)
 	- [学习go语言 中文版](http://mikespook.com/learning-go/)
 	- [Go 编程语言入门教程](http://log4think.com/go_tutorial/)
+	- [go网站 中文版](http://golang-china.appspot.com/)
+	- [Go database/sql tutorial](http://go-database-sql.org/index.html)
 
 2. go调度器
 
@@ -28,6 +30,7 @@
 	- [聊天室2](http://studygolang.com/articles/616)
 	- [聊天室3](http://www.oschina.net/question/12_63247)
 	- [tcp/ip编程](http://blog.csdn.net/ygrx/article/details/11773151)
+	- [值得学习的go项目](http://www.zhihu.com/question/20801814)
 	
 5. 不错的网站
 
@@ -37,4 +40,9 @@
 
 	- golang的演化历程[1](http://studygolang.com/articles/2005)   [2](http://www.techug.com/golang-history)
 	- [GO 语言学习的五个阶段](http://studygolang.com/articles/2454)
+	- [反射的规则](http://mikespook.com/2011/09/%E5%8F%8D%E5%B0%84%E7%9A%84%E8%A7%84%E5%88%99/)
+	- [The Laws of Reflection](http://blog.golang.org/laws-of-reflection)
+	- [Go Data Structures: Interfaces](http://research.swtch.com/interfaces)
+	- [faq](http://golang.org/doc/faq)
+	- [golang: 详解interface和nil](http://my.oschina.net/goal/blog/194233?p=2)
 	
