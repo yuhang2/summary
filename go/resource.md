@@ -45,4 +45,5 @@
 	- [Go Data Structures: Interfaces](http://research.swtch.com/interfaces)
 	- [faq](http://golang.org/doc/faq)
 	- [golang: 详解interface和nil](http://my.oschina.net/goal/blog/194233?p=2)
+    - [Go语言的传参和传引用](http://my.oschina.net/chai2010/blog/161384)
 	
